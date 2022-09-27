@@ -7,7 +7,6 @@ def get_usr_input():
     prase_obj = optparse.OptionParser()
     prase_obj.add_option("-i", "--interface", dest="interface", help="Interface to change its MAC address")
     prase_obj.add_option("-m", "--mac", dest="MAC address", help="New MAC address")
-    prase_obj.add_option("-r", "--random", dest="random", help="Random MAC address")
     prase_obj.add_option("-h", "--help", dest="help", help="Help")
 
     return prase_obj.parse_args()
